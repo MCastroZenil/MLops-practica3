@@ -1,5 +1,5 @@
 import pickle
-from sklearn.datasets import make_regression
+from sklearn.datasets import Lasso
 import json
 
 model = pickle.load(open("models/model.pkl", "rb"))
